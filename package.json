@@ -4,7 +4,8 @@
   "description": "This is how I'm learning Typescript",
   "main": "index.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "standard *.ts"
   },
   "repository": {
     "type": "git",
