@@ -1,0 +1,42 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "This is how I'm learning Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanarbol/typescript-tutorial.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "tutorial",
+    "guide",
+    "learning"
+  ],
+  "author": "Juan José Arboleda <soyjuanarbol@gmail.com> (https://juanarbol.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanarbol/typescript-tutorial/issues"
+  },
+  "homepage": "https://github.com/juanarbol/typescript-tutorial#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint-plugin-typescript": "^0.8.1",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3",
+    "typescript-eslint-parser": "^10.0.0"
+  },
+  "standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+      "typescript"
+    ]
+  },
+  "dependencies": {
+    "typescript": "^2.6.2"
+  }
+}

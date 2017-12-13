@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.DS_Store
+
+# I do not want to follow compiled js files
+*.js
